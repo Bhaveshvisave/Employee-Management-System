@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Employee</title>
+    <link rel="stylesheet" href="css/all.min.css">  
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add New Employee</h2><hr>
+        <div class="row">
+            <div class="form-group col-sm-6">
+                <label>Title:</label>
+                <input type="text" class="form-control" id="Etitle" placeholder="Title e.g Mr/Mrs/Miss">
+                <div id="alertTitle" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Title</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>First Name:</label>
+                <input type="text" class="form-control" id="Efname" placeholder="First Name">
+                <div id="alertFirstName" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid First Name</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Last Name:</label>
+                <input type="text" class="form-control" id="Elname" placeholder="Last Name">
+                <div id="alertLastName" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Last Name</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Mobile No:</label>
+                <input type="text" class="form-control" id="Emno" placeholder="Mobile No">
+                <div id="alertMobile" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Mobile No</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Email Address:</label>
+                <input type="text" class="form-control" id="Eemail" placeholder="Email Address">
+                <div id="alertEmail" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Email Address</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Employee Id:</label>
+                <input type="text" class="form-control" id="Eempid" placeholder="Employee Id">
+                <div id="alertEmpid" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Employee Id</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Employee Home address:</label>
+                <textarea class="form-control" id="Eadd" rows="3" placeholder="Employee Home address..."></textarea>
+                <div id="alertAdd" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Employee Home address</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Country:</label>
+                <input type="text" class="form-control" id="Ecountry" placeholder="Country">
+                <div id="alertCountry" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Country</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>State:</label>
+                <input type="text" class="form-control" id="Estate" placeholder="State">
+                <div id="alertState" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid State</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>City:</label>
+                <input type="text" class="form-control" id="Ecity" placeholder="City">
+                <div id="alertCity" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid City</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Select Date:</label>
+                <input type="date" class="form-control" id="Edate">
+                <div id="alertDate" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Date</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Select Department:</label>
+                <select class="form-control" id="Edept">
+                    <option value="">Select Department</option>
+                    <option value="Administration">Administration</option>
+                    <option value="Human Resources">Human Resources</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Information Technology (IT)">Information Technology (IT)</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Sales">Sales</option>
+                    <option value="Operations">Operations</option>
+                    <option value="Product Management">Product Management</option>
+                </select>
+                <div id="alertDept" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Department</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Select Role:</label>
+                <select class="form-control" id="Erole">
+                    <option value="">Select Role</option>
+                    <option value="Software Engineer">Software Engineer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Product Manager">Product Manager</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="QA Engineer">QA Engineer</option>
+                    <option value="UX/UI Designer">UX/UI Designer</option>
+                    <option value="DevOps Engineer">DevOps Engineer</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="IT Administrator">IT Administrator</option>
+                </select>
+                <div id="alertRole" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Role</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Select File:</label>
+                <input type="file" class="form-control-file" id="Efile">
+                <div id="alertFile" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid File</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Password:</label>
+                <input type="password" class="form-control" id="Epw" placeholder="Password">
+                <div id="alertPW" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Password</div>
+            </div>
+            <div class="form-group col-sm-6">
+                <label>Confirm Password:</label>
+                <input type="password" class="form-control" id="Ecpw" placeholder="Confirm Password">
+                <div id="alertCPW" class="alert alert-danger col-sm-6 mx-auto d-none"> Please enter a valid Confirm Password</div>
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" id="addNewEmpSubmitBtn" class="btn btn-primary mr-2">Submit</button>
+                <button type="reset" id="resetEmpBtn" class="btn btn-danger mr-2">Reset</button>
+                <a href="Dashboard.html"><button type="button" id="cancelEmpBtn" class="btn btn-secondary">Cancel</button></a><br><br>
+            </div>
+        </div>
+        <div class="text-right">
+            <h2>All Employees</h2>
+            <a href="Add_Employee.html"><button type="button" class="btn btn-success" value="Add Employee">Add Employee</button></a>
+            <hr>
+        </div>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>SN</td>
+                        <td>EmpId</td>
+                        <td>Name</td>
+                        <td>Phone/Email</td>
+                        <td>Address</td>
+                        <td>Dept.</td>
+                        <td>Role</td>
+                        <td>Reg Date</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
