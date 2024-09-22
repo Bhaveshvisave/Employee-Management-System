@@ -36,7 +36,7 @@ addBtn.addEventListener("click", function () {
     isValid = false;
   }
   if (isEmployeeExist()) {
-    alert("This Employee already exists");
+    alert("This email address is already in use. If you already have an account, please log in.");
     isValid = false;
   }
 
