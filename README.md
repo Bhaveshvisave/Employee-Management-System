@@ -78,7 +78,7 @@ EmployeeManagementSystem/
 
 1. Clone the repository:
 
-    git clone https://github.com/Bhaveshvisave/EmployeeManagementSystem.git
+    git clone https://github.com/Bhaveshvisave/Employee-Management-System.git
 
 
 2. Open the project: Navigate to the project directory and open index.html in your preferred web browser.
@@ -98,8 +98,6 @@ EmployeeManagementSystem/
 
 
 
-
-> Note: Ensure that your browser allows local JSON access for the site to run smoothly.
 
 
 
