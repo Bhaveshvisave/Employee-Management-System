@@ -42,7 +42,9 @@ addBtn.addEventListener("click", function () {
 
   if (isValid) {
     addEmployee();
-    alert("User added successfully");
+    alert(
+      "Your account has been created successfully. Please log in to continue."
+    );
   }
 });
 
