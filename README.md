@@ -6,6 +6,8 @@ The Employee Management System is a web-based application designed to streamline
 
 This project is built using front-end technologies like HTML5, CSS3, Bootstrap, and JavaScript, with JSON serving as the storage mechanism. The system provides secure access with login, signup, and validation features to ensure that only registered employees can access the platform.
 
+**[Live Demo](https://bhaveshvisave.github.io/Employee-Management-System/)**
+
 ## Key Features
 
 - Employee Management: Add, update, and manage employee records, including personal details, department assignment, and role information.
@@ -54,8 +56,6 @@ EmployeeManagementSystem/
 └── README.md                    # Project README file
 </pre>
 
-
-
 ## Technologies Used
 
 #### Frontend:
@@ -96,11 +96,6 @@ EmployeeManagementSystem/
 
     Leave: Manage leave applications and approvals through leave.html.
 
-
-
-
-
-
 ## Features to be Added 
 
 Role-based access control (Admin, Manager, Employee).
@@ -135,7 +130,6 @@ Contributions are always welcome! If you'd like to add new features, fix bugs, o
 
 
 5. Open a pull request.
-
 
 
 ## License
